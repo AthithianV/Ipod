@@ -1,0 +1,53 @@
+
+.box{
+    background-color: #B9B9B9;
+    height: 150px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circle{
+    height: 75px;
+    width: 75px;
+    background-color: #B9B9B9;
+    border-radius: 50%;
+    position: relative;
+}
+
+.menu{
+    font-weight: 600;
+    font-size: 0.75rem;
+    position: absolute;
+    top: 8%;
+    color: #B9B9B9;
+}
+
+.next{
+    position: absolute;
+    color: #B9B9B9;
+        left: 80%;
+}
+
+.prev{
+    position: absolute;
+    color: #B9B9B9;
+        right: 80%;
+}
+
+.play{
+    position: absolute;
+    color: #B9B9B9;
+        bottom: 7%;
+}
