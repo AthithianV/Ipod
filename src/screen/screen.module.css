@@ -1,0 +1,52 @@
+.left{
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.title{
+    margin: 0;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.arrow{
+    color: white;
+}
+
+.active{
+    color: white;
+    background-color: #3980D8;
+}
+
+.container{
+    box-sizing: border-box;
+    display: flex;
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+    border: solid 3px black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img{
+    height: 90%;
+    width: 90%;
+}

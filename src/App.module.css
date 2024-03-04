@@ -2,4 +2,13 @@
     margin-top: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    background: #B9B9B9;
+    border-radius: 10%;
+    padding: 20px 10px 5px 10px;
+    box-shadow: inset 0px 0px 20px 1px #838282, 0px 0px 10px 2px lightgray;
 }
